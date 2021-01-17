@@ -1,5 +1,3 @@
-
-
 RSpec.describe 'index.html' do
   it 'contains a <a> tag with the href attribute set to an absolute path' do
     a = parsed_html.search('a')[0]
